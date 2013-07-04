@@ -16,7 +16,7 @@ set smartcase
 set wildmode=list:longest,list:full
 set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*
 set laststatus=2
-set cul
+" set cul
 set autoindent
 
 set wrap

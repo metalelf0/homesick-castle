@@ -5,6 +5,8 @@ alias cd..="cd .."
 alias ssh="ssh -X"
 alias ..="cd .."
 alias gvim='/usr/local/bin/mvim'
+alias mvim='/usr/local/bin/mvim --remote-silent'
+
 alias vim='/usr/local/bin/mvim -v'
 alias rakelite='rake $* 2>/dev/null'
 alias vless="/usr/share/vim/vim73/macros/less.sh"
@@ -37,7 +39,7 @@ function dir_alias {
   fi
 }
 
-source .dir_aliases.sh
+source $HOME/.dir_aliases.sh
 
 alias bonsole="bundle exec rails console"
 alias bails="bundle exec rails"

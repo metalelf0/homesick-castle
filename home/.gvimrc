@@ -5,7 +5,7 @@ if has("gui_macvim")
   set guifont=Menlo:h12
   set antialias
   set linespace=3
-  bg light
+  set bg=light
   colorscheme hemisu 
 
 " Start without the toolbar
